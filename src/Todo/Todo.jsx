@@ -75,7 +75,7 @@ const Todo = () => {
             <div className="lists text-left text-[30px] font-semibold  text-white">
                 {
                     printTodo.map((item) => (
-                        <ul className='list-decimal flex items-center gap-x-[30px] mt-[30px]'>
+                        <ul className='list-disc flex items-center gap-x-[30px] mt-[30px]'>
                             <li>{item.todo}</li>
                             <div onClick={() => handleRemove(item)} className='cursor-pointer font-semibold bg-yellow-500 py-[10px] px-[10px] rounded-xl text-[18px]'>Remove</div>
 
